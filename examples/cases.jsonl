@@ -1,0 +1,3 @@
+{"id":"structured","output":"{\"topic\":\"retrieval\",\"score\":0.9}","json_types":{"topic":"string","score":"number"}}
+{"id":"grounded","output":"The cache uses a TTL of 60 seconds.","contains":["TTL","60"],"forbidden":["unlimited"]}
+{"id":"format","output":"DOC-104","pattern":"DOC-[0-9]{3}"}

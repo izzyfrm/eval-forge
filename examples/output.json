@@ -1,0 +1,31 @@
+{
+  "total": 3,
+  "passed": 3,
+  "pass_rate": 1.0,
+  "results": [
+    {
+      "id": "structured",
+      "passed": true,
+      "checks": {
+        "json:topic": true,
+        "json:score": true
+      }
+    },
+    {
+      "id": "grounded",
+      "passed": true,
+      "checks": {
+        "contains:TTL": true,
+        "contains:60": true,
+        "forbidden:unlimited": true
+      }
+    },
+    {
+      "id": "format",
+      "passed": true,
+      "checks": {
+        "pattern": true
+      }
+    }
+  ]
+}

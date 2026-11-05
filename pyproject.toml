@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "eval-forge"
+version = "0.1.0"
+description = "A JSONL evaluation runner with strict output checks, per-case diagnostics, and regression gates."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{name = "Isaiah Boyd"}]
+dependencies = []
+
+[project.scripts]
+eval-forge = "eval_forge:main"
+
+[tool.setuptools]
+py-modules = ["eval_forge"]
